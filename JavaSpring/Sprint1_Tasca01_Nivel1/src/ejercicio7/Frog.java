@@ -4,7 +4,7 @@ public class Frog extends Amphibian {
     public void croar (){
         System.out.println("¡Croac, croac!");
     }
-    public void moverse (){
-        this.posicion += 2;
+    public void crecer (){
+        this.potencia +=2;
     }
 }
