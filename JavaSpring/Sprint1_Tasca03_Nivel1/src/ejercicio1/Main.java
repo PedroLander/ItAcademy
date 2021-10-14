@@ -17,7 +17,7 @@ public class Main {
 		Month m11 = new Month("Noviembre");
 		Month m12 = new Month("Diciembre");
 		
-		ArrayList<Month> list = new ArrayList();
+		ArrayList<Month> list = new ArrayList<Month> ();
 
 		list.add(m1);
 		list.add(m2);
@@ -38,11 +38,11 @@ public class Main {
 		Month m8 = new Month("Agosto");
 		
 		System.out.println("------------ Añadimos agosto");
+		
 		list.add(7, m8);
 		
 		for (int i = 0; i < list.size(); i++) {
 			System.out.println(list.get(i).name);
 		}
-		
 	}
 }
